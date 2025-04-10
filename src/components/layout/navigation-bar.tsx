@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { User, LogIn, Home, GameController, BarChart3, MessageCircle, Settings } from "lucide-react";
+import { User, LogIn, Home, Gamepad2, BarChart3, MessageCircle, Settings } from "lucide-react";
 import GemIcon from "@/components/ui/gem-icon";
 import { cn } from "@/lib/utils";
 
@@ -37,7 +37,7 @@ interface NavigationBarProps {
 const NavigationBar = ({ isAuthenticated = false, currentPath }: NavigationBarProps) => {
   const mainLinks = [
     { to: "/", icon: <Home size={18} />, label: "Home" },
-    { to: "/games", icon: <GameController size={18} />, label: "Games" },
+    { to: "/games", icon: <Gamepad2 size={18} />, label: "Games" },
     { to: "/leaderboard", icon: <BarChart3 size={18} />, label: "Leaderboard" },
   ];
 

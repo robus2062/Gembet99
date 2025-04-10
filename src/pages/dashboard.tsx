@@ -2,7 +2,7 @@
 import MainLayout from "@/components/layout/main-layout";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { BarChart, Calendar, GameController, Gift, Plus, RefreshCw, Rocket } from "lucide-react";
+import { BarChart, Calendar, Gamepad2, Gift, Plus, RefreshCw, Rocket } from "lucide-react";
 import { Link } from "react-router-dom";
 import GemIcon from "@/components/ui/gem-icon";
 import { Progress } from "@/components/ui/progress";
@@ -124,7 +124,7 @@ const Dashboard = () => {
             <Card className="border-gem-800 hover:border-gem-500 transition-all cursor-pointer">
               <CardContent className="p-4 text-center">
                 <div className="mb-2 flex justify-center">
-                  <GameController className="h-8 w-8 text-gem-400" />
+                  <Gamepad2 className="h-8 w-8 text-gem-400" />
                 </div>
                 <h3 className="font-medium">Play Games</h3>
               </CardContent>

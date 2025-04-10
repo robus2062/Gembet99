@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
-import { GameController, BarChart3, Sparkles, Gift, Users } from "lucide-react";
+import { BarChart3, Sparkles, Gift, Users, Gamepad2 } from "lucide-react";
 import GemIcon from "@/components/ui/gem-icon";
 import MainLayout from "@/components/layout/main-layout";
 
@@ -71,7 +71,7 @@ const Home = () => {
           <Card className="bg-card border-gem-800">
             <CardContent className="pt-6 text-center">
               <div className="bg-gem-800 rounded-full w-12 h-12 mx-auto mb-4 flex items-center justify-center">
-                <GameController className="text-gem-400" />
+                <Gamepad2 className="text-gem-400" />
               </div>
               <h3 className="text-lg font-bold mb-2">Exciting Games</h3>
               <p className="text-muted-foreground">
@@ -123,7 +123,7 @@ const Home = () => {
               <Card className="overflow-hidden border-gem-800 hover:border-gem-500 transition-all duration-300 group">
                 <div className="aspect-[16/9] bg-gem-900 relative">
                   <div className="absolute inset-0 flex items-center justify-center bg-gem-800">
-                    <GameController className="w-12 h-12 text-gem-400 opacity-50 group-hover:opacity-100 transition-opacity" />
+                    <Gamepad2 className="w-12 h-12 text-gem-400 opacity-50 group-hover:opacity-100 transition-opacity" />
                   </div>
                 </div>
                 <CardContent className="p-4">

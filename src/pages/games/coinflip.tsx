@@ -3,7 +3,7 @@ import MainLayout from "@/components/layout/main-layout";
 import CoinFlip from "@/components/games/coin-flip";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { ArrowLeft, QuestionMark } from "lucide-react";
+import { ArrowLeft, HelpCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const CoinFlipPage = () => {
@@ -21,7 +21,7 @@ const CoinFlipPage = () => {
             <h1 className="text-2xl font-bold">Coin Flip</h1>
           </div>
           <Button variant="outline" size="sm">
-            <QuestionMark className="h-4 w-4 mr-1" /> How to Play
+            <HelpCircle className="h-4 w-4 mr-1" /> How to Play
           </Button>
         </div>
         
